@@ -123,7 +123,65 @@
         </div>
       </div>
     </section>
-    <section h-2000px>
+    <section id="results" pt="46px lg:100px">
+      <div w="full xl:1024px" h-full mx-auto p="x-10px xl:0">
+        <div text-center mb="20px">
+          <h1 text="22px xl:36px" fw-700>Лучшие ВУЗы страны</h1>
+          <p text="16px xl:20px">Куда поступают ваши ученики</p>
+        </div>
+        <div grid grid-cols="[1fr_1fr] xl:[1fr_1fr_1fr_1fr_1fr]" gap-20px items-center>
+          <div flex flex-col items-center>
+            <img src="/img/vuz1.webp" alt="" width="80" height="auto">
+            <p mt-5px text="16px" fw-600>МГУ</p>
+            <p text="14px">224 выпускника</p>
+          </div>
+          <div flex flex-col items-center>
+            <img src="/img/vuz2.webp" alt="" width="90" height="auto">
+            <p mt-14px text="16px" fw-600>МГИМО</p>
+            <p text="14px">106 выпускника</p>
+          </div>
+          <div flex flex-col items-center>
+            <img src="/img/vuz3.webp" alt="" width="80" height="auto">
+            <p mt-5px text="16px" fw-600>ВШЭ</p>
+            <p text="14px">135 выпускника</p>
+          </div>
+          <div flex flex-col items-center>
+            <img src="/img/vuz4.webp" alt="" width="80" height="auto">
+            <p mt-5px text="16px" fw-600>МГТУ</p>
+            <p text="14px">57 выпускника</p>
+          </div>
+          <div flex flex-col items-center>
+            <img src="/img/vuz5.webp" alt="" width="80" height="auto">
+            <p mt-5px text="16px" fw-600>СПБГУ</p>
+            <p text="14px">105 выпускника</p>
+          </div>
+          <div flex flex-col items-center>
+            <img mt-15px src="/img/vuz6.webp" alt="" width="140" height="auto">
+            <p mt-10px text="16px" fw-600>ИТМО</p>
+            <p text="14px">31 выпускника</p>
+          </div>
+          <div flex flex-col items-center>
+            <img mt-15px src="/img/vuz7.webp" alt="" width="130" height="auto">
+            <p mt-15px text="16px" fw-600>МФТИ</p>
+            <p text="14px">46 выпускника</p>
+          </div>
+          <div flex flex-col items-center>
+            <img src="/img/vuz8.webp" alt="" width="80" height="auto">
+            <p mt-5px text="16px" fw-600>МГМУ</p>
+            <p text="14px">44 выпускника</p>
+          </div>
+          <div flex flex-col items-center>
+            <img src="/img/vuz9.webp" alt="" width="80" height="auto">
+            <p mt-5px text="16px" fw-600>КФУ</p>
+            <p text="14px">215 выпускника</p>
+          </div>
+          <div flex flex-col items-center>
+            <img src="/img/vuz10.webp" alt="" width="80" height="auto">
+            <p mt-5px text="16px" fw-600>МИФИ</p>
+            <p text="14px">18 выпускника</p>
+          </div>
+        </div>
+      </div>
     </section>
   </div>
 </template>
