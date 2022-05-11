@@ -127,7 +127,7 @@
       <div w="full xl:1024px" h-full mx-auto p="x-10px xl:0">
         <div text-center mb="20px">
           <h1 text="22px xl:36px" fw-700>Лучшие ВУЗы страны</h1>
-          <p text="16px xl:20px">Куда поступают ваши ученики</p>
+          <p text="16px xl:20px">Куда поступают наши ученики</p>
         </div>
         <div grid grid-cols="[1fr_1fr] xl:[1fr_1fr_1fr_1fr_1fr]" gap-20px items-center>
           <div flex flex-col items-center>
