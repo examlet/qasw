@@ -62,7 +62,7 @@ const toggleMobileMenu = () => (mobileMenuCollapsed.value = !mobileMenuCollapsed
               <div mb-4px class="ml-10px">отзывы и результаты</div>
             </button>
           </div>
-          <div class="h-32px mt-14px" w-full text-center flex flex-row items-center text-14px justify-between>
+          <div class="h-32px mt-14px" w-full text-center flex flex-row items-center text-14px justify-between px-10px>
             <div fw-500>8 (800) 222-86-63</div>
             <div flex flex-row items-center gap-5px>
               <QLink active>whatsapp</QLink>
