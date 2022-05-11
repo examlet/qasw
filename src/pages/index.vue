@@ -60,7 +60,7 @@
     <section id="reviews" pt="46px lg:100px">
       <div w="full xl:1024px" h-full mx-auto p="x-10px xl:0">
         <div text-center mb="20px">
-          <h1 text="22px xl:36px" fw-700>Отзывы выпускников</h1>
+          <h1 text="22px xl:36px" fw-700 underline underline-offset-4 decoration="3 [#ffdd2d]">Отзывы выпускников</h1>
           <p text="16px xl:20px">Реальные истории, эмоции и результаты</p>
         </div>
         <div p-10px pt-15px flex items-center justify-between overflow-x-scroll lg:overflow-hidden gap-40px>
@@ -126,10 +126,10 @@
     <section id="results" pt="46px lg:100px">
       <div w="full xl:1024px" h-full mx-auto p="x-10px xl:0">
         <div text-center mb="20px">
-          <h1 text="22px xl:36px" fw-700>Лучшие ВУЗы страны</h1>
+          <h1 text="22px xl:36px" fw-700 underline underline-offset-4 decoration="3 [#ffdd2d]">Лучшие ВУЗы страны</h1>
           <p text="16px xl:20px">Куда поступают наши ученики</p>
         </div>
-        <div grid grid-cols="[1fr_1fr] xl:[1fr_1fr_1fr_1fr_1fr]" gap-20px items-center>
+        <div grid grid-cols="[1fr_1fr] xl:[1fr_1fr_1fr_1fr_1fr]" mt-20px gap-20px items-center>
           <div flex flex-col items-center>
             <img src="/img/vuz1.webp" alt="" width="80" height="auto">
             <p mt-5px text="16px" fw-600>МГУ</p>
