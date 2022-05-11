@@ -37,7 +37,6 @@ const toggleMobileMenu = () => (mobileMenuCollapsed.value = !mobileMenuCollapsed
                 </div>
               </div>
             </div>
-
           </div>
         </div>
       </div>
