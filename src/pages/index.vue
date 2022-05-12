@@ -24,7 +24,7 @@
               НАЧАТЬ БЕСПЛАТНО</QButton>
             <!-- <QButton bg-gradient-to-b from="[#ffdd2d]" to="[#fcc521]" mt-30px w="240px" h="60px" text="14px">НАЧАТЬ БЕСПЛАТНО</QButton> -->
             <img hidden xl:inline-block absolute ml-20px mt-50px src="/img/title2.png" alt="" width="190">
-            <img absolute top-30px right="20px" src="/img/head.svg" alt="" width="50" height="auto">
+            <img absolute top="22px" right="20px" src="/img/head.svg" alt="" width="50" height="auto">
           </div>
           <div relative w-full h-full>
             <img hidden xl:block absolute ml-60px src="/img/title1.png" alt="" width="180">
