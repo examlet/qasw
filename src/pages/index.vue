@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <div h-full w-full>
+  <div h-full w-290px mx-auto>
     <section id="start" pt="10px lg:50px">
       <div w="full xl:1024px" h-full mx-auto p="x-10px xl:0">
         <div grid grid-cols="[1fr] xl:[1fr_1fr]">
@@ -24,12 +24,12 @@
               НАЧАТЬ БЕСПЛАТНО</QButton>
             <!-- <QButton bg-gradient-to-b from="[#ffdd2d]" to="[#fcc521]" mt-30px w="240px" h="60px" text="14px">НАЧАТЬ БЕСПЛАТНО</QButton> -->
             <img hidden xl:inline-block absolute ml-20px mt-50px src="/img/title2.png" alt="" width="190">
-            <img absolute top="22px" right="20px" src="/img/head.svg" alt="" width="50" height="auto">
+            <img absolute top="25px" right="15px" src="/img/head.svg" alt="" width="50" height="auto">
           </div>
           <div relative w-full h-full>
             <img hidden xl:block absolute ml-60px src="/img/title1.png" alt="" width="180">
             <img src="/img/ipad.png" alt="Презентация школы" width="100%" height="100%">
-            <img absolute mx-auto left-30px bottom-5px src="/img/title3.png" alt="" width="240">
+            <img absolute mx-auto left-30px bottom-5px src="/img/title3.png" alt="" width="230">
             <img hidden xl:block absolute right-5px top-200px src="/img/pen.png" alt="" width="30">
             <img absolute mt="-90px" src="/img/face1.png" alt="" w="60px xl:100px" width="auto">
           </div>
