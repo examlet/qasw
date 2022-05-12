@@ -9,6 +9,7 @@
           <div relative mt="xl:50px">
             <h1 text="12px xl:15px [#4D4D4D]" fw-700>ОНЛАЙН ШКОЛА ПОДГОТОВКИ К ЕГЭ И ОГЭ</h1>
             <h2 mt="20px" text="28px xl:40px" fw-700 leading="28px xl:40px">
+              <img absolute top-40px right-20px src="/img/head.svg" alt="" width="40" height="auto">
               Ты поступишь на <br xl:hidden> бюджет в ВУЗ мечты
             </h2>
             <h3 mt="20px" text="[#4D4D4D] 16px xl:18px" tracking-wide>
@@ -24,7 +25,7 @@
               НАЧАТЬ БЕСПЛАТНО</QButton>
             <!-- <QButton bg-gradient-to-b from="[#ffdd2d]" to="[#fcc521]" mt-30px w="240px" h="60px" text="14px">НАЧАТЬ БЕСПЛАТНО</QButton> -->
             <img hidden xl:inline-block absolute ml-20px mt-50px src="/img/title2.png" alt="" width="190">
-            <img absolute top-40px right-20px src="/img/head.svg" alt="" width="40" height="auto">
+            <!-- <img absolute top-40px right-20px src="/img/head.svg" alt="" width="40" height="auto"> -->
           </div>
           <div relative w-full h-full>
             <img hidden xl:block absolute ml-60px src="/img/title1.png" alt="" width="180">
