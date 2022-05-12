@@ -7,23 +7,23 @@
       <div w="full xl:1024px" h-full mx-auto p="x-10px xl:0">
         <div grid grid-cols="[1fr] xl:[1fr_1fr]">
           <div relative mt="xl:50px">
-            <h1 text="12px xl:15px [#808080]" fw-700>ОНЛАЙН ШКОЛА ПОДГОТОВКИ К ЕГЭ И ОГЭ</h1>
-            <h2 mt="10px xl:20px" text="28px xl:40px" fw-700 leading="28px xl:40px">Ты поступишь на бюджет в ВУЗ своей
-              мечты</h2>
-            <p mt="15px xl:30px" text="14px xl:18px" tracking-wide>
+            <h1 text="12px xl:15px [#4D4D4D]" fw-700>ОНЛАЙН ШКОЛА ПОДГОТОВКИ К ЕГЭ И ОГЭ</h1>
+            <h2 mt="10px xl:20px" text="28px xl:40px" fw-700 leading="28px xl:40px">
+              Ты поступишь на бюджет в ВУЗ своей мечты
+            </h2>
+            <p mt="30px" text="[#4D4D4D] 18px xl:18px" tracking-wide>
               Наша цель, чтобы ты набрал нужное количество баллов<br hidden xl:block>
-              для поступления<br xl:hidden>на <span fw-600 text="[#fcc521]">бюджет в лучший ВУЗ</span> 😎<br
-                xl:hidden>Составим<br hidden xl:block>
-              для тебя <span fw-600 text="[#fcc521]">индивидуальный план подготовки</span> 🚀<br>
-              Ты сдашь экзамены минимум <span fw-600 text="[#fcc521]">на 30-35 баллов больше</span>,<br hidden xl:block>
-              чем сейчас 🔥
+              для поступления<br xl:hidden>на <span fw-600>бюджет в лучший ВУЗ</span><br>
+              Составим для тебя <span fw-600>индивидуальный план подготовки</span><br>
+              Ты сдашь экзамены минимум <span fw-600>на 30-35 баллов больше</span>,<br hidden xl:block>
+              чем сейчас
             </p>
             <QButton bg-gradient-to-b from="[#fcc521]" to="[#ffdd2d]" mt-30px w="full xl:240px" h="60px" text="14px">
               НАЧАТЬ БЕСПЛАТНО</QButton>
             <!-- <QButton bg-gradient-to-b from="[#ffdd2d]" to="[#fcc521]" mt-30px w="240px" h="60px" text="14px">НАЧАТЬ БЕСПЛАТНО</QButton> -->
             <img hidden xl:inline-block absolute ml-20px mt-50px src="/img/title2.png" alt="" width="190">
           </div>
-          <div relative w-full h-full>
+          <div relative w-full h-full mt="10px lg:0">
             <img hidden xl:block absolute ml-60px src="/img/title1.png" alt="" width="180">
             <img src="/img/ipad.png" alt="Презентация школы" width="100%" height="100%">
             <img mx-auto mb="-20px xl:0" mt="xl:-40px" pl-20px src="/img/title3.png" alt="" width="300">
@@ -33,7 +33,7 @@
         </div>
       </div>
     </section>
-    <section id="features" pt="46px lg:146px">
+    <section id="features" pt="76px lg:146px">
       <div rounded bg="[#f5f5f7]" w-full h-auto py-10px>
         <div w="full xl:1024px" h-full mx-auto p="x-10px xl:0">
           <div grid grid-cols="[1fr_1fr] xl:[1fr_1fr_1fr_1fr]" gap-20px>
@@ -60,8 +60,8 @@
     <section id="reviews" pt="46px lg:100px">
       <div w="full xl:1024px" h-full mx-auto p="x-10px xl:0">
         <div text-center mb="20px">
-          <h1 text="22px xl:36px" fw-700 underline underline-offset-4 decoration="3 [#ffdd2d]">Отзывы выпускников</h1>
-          <p text="16px xl:20px">Реальные истории, эмоции и результаты</p>
+          <h1 text="22px xl:36px" fw-700 underline underline-offset-5 decoration="3 [#ffdd2d] dashed">Отзывы выпускников</h1>
+          <p mt-10px text="16px xl:20px">Реальные истории, эмоции и результаты</p>
         </div>
         <div p-10px pt-15px flex items-center justify-between overflow-x-scroll lg:overflow-hidden gap-40px>
           <div relative rounded min-w-200px w-200px h-400px>
@@ -70,9 +70,9 @@
               <img src="/img/review1_photo.webp" alt="" width="48" height="48">
               <div ml-10px>
                 <p fw-700>Кирилл Чистяков</p>
-                <div flex flex-row items-center gap-10px>
+                <div flex flex-row items-center gap-5px>
                   <img src="/img/vk.svg" alt="" width="auto" height="auto">
-                  <p text="[#0065f2]">@kchistyakov</p>
+                  <p text="14px [#4680c2]">@kchistyakov</p>
                 </div>
               </div>
             </div>
@@ -84,9 +84,9 @@
               <img src="/img/review2_photo.webp" alt="" width="48" height="48">
               <div ml-10px>
                 <p fw-700>Аня Манина</p>
-                <div flex flex-row items-center gap-10px>
+                <div flex flex-row items-center gap-5px>
                   <img src="/img/vk.svg" alt="" width="auto" height="auto">
-                  <p text="[#0065f2]">@a.manina</p>
+                  <p text="14px [#4680c2]">@a.manina</p>
                 </div>
               </div>
             </div>
@@ -98,9 +98,9 @@
               <img src="/img/review3_photo.webp" alt="" width="48" height="48">
               <div ml-10px>
                 <p fw-700>Эльза Зумагулова</p>
-                <div flex flex-row items-center gap-10px>
+                <div flex flex-row items-center gap-5px>
                   <img src="/img/vk.svg" alt="" width="auto" height="auto">
-                  <p text="[#0065f2]">@elzaa_zum</p>
+                  <p text="14px [#4680c2]">@elzaa_zum</p>
                 </div>
               </div>
             </div>
@@ -112,9 +112,9 @@
               <img src="/img/review4_photo.webp" alt="" width="48" height="48">
               <div ml-10px>
                 <p fw-700>Арина Королёва</p>
-                <div flex flex-row items-center gap-10px>
+                <div flex flex-row items-center gap-5px>
                   <img src="/img/vk.svg" alt="" width="auto" height="auto">
-                  <p text="[#0065f2]">@id193694905</p>
+                  <p text="14px [#4680c2]">@id193694905</p>
                 </div>
               </div>
             </div>
@@ -125,9 +125,9 @@
     </section>
     <section id="results" pt="46px lg:100px">
       <div w="full xl:1024px" h-full mx-auto p="x-10px xl:0">
-        <div text-center mb="20px">
-          <h1 text="22px xl:36px" fw-700 underline underline-offset-4 decoration="3 [#ffdd2d]">Лучшие ВУЗы страны</h1>
-          <p text="16px xl:20px">Куда поступают наши ученики</p>
+        <div text-center mb="40px lg:20px">
+          <h1 text="22px xl:36px" fw-700 underline underline-offset-5 decoration="3 [#ffdd2d] dashed">Лучшие ВУЗы страны</h1>
+          <p mt-10px text="16px xl:20px">Куда поступают наши ученики</p>
         </div>
         <div grid grid-cols="[1fr_1fr] xl:[1fr_1fr_1fr_1fr_1fr]" mt-20px gap-20px items-center>
           <div flex flex-col items-center>
