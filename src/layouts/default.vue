@@ -61,6 +61,12 @@ const toggleMobileMenu = () => (mobileMenuCollapsed.value = !mobileMenuCollapsed
               <div mb-4px class="ml-10px">отзывы и результаты</div>
             </button>
           </div>
+          <div class="h-28px mt-16px">
+            <button class="flex items-center justify-start">
+              <div class="i-carbon-gift" />
+              <QLink primary active ml-10px text="!13px">ПОЛУЧИ БЕСПЛАТНЫЙ КУРС И ВЕБИНАРЫ</QLink>
+            </button>
+          </div>
           <div class="h-32px mt-14px" w-full text-center flex flex-row items-center text-13px justify-center>
             <div fw-500 mr-14px>8 (800) 222-86-63</div>
             <div flex flex-row items-center gap-5px>
@@ -68,9 +74,6 @@ const toggleMobileMenu = () => (mobileMenuCollapsed.value = !mobileMenuCollapsed
               <span fw-500>или</span>
               <QLink active text="!12px">TELEGRAM</QLink>
             </div>
-          </div>
-          <div class="h-28px mt-14px" text-center>
-            <QLink primary active text="!13px">ПОЛУЧИ БЕСПЛАТНЫЙ КУРС И ВЕБИНАРЫ</QLink>
           </div>
         </div>
       </div>

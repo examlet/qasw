@@ -3,27 +3,30 @@
 
 <template>
   <div h-full w-full>
-    <section id="start" pt="26px lg:50px">
+    <section id="start" pt="10px lg:50px">
       <div w="full xl:1024px" h-full mx-auto p="x-10px xl:0">
         <div grid grid-cols="[1fr] xl:[1fr_1fr]">
           <div relative mt="xl:50px">
-            <h1 text="12px xl:15px [#4D4D4D]" fw-700>ОНЛАЙН ШКОЛА ПОДГОТОВКИ К ЕГЭ И ОГЭ</h1>
-            <h2 mt="10px xl:20px" text="28px xl:40px" fw-700 leading="28px xl:40px">
-              Ты поступишь на бюджет в ВУЗ своей мечты
+            <h1 text="12px xl:15px [#4D4D4D]" fw-600>онлайн школа подготовки к егэ и огэ</h1>
+            <h2 mt="20px" text="28px xl:40px" fw-700 leading="28px xl:40px">
+              Ты поступишь на <br xl:hidden> бюджет в ВУЗ мечты
             </h2>
-            <p mt="30px" text="[#4D4D4D] 18px xl:18px" tracking-wide>
-              Наша цель, чтобы ты набрал нужное количество баллов<br hidden xl:block>
-              для поступления<br xl:hidden>на <span fw-600>бюджет в лучший ВУЗ</span><br>
+            <h3 mt="20px" text="[#4D4D4D] 16px xl:18px" tracking-wide>
+              <!-- Наша цель, чтобы ты набрал нужное количество баллов
+              для поступления на <span fw-600>бюджет в лучший ВУЗ</span><br>
               Составим для тебя <span fw-600>индивидуальный план подготовки</span><br>
-              Ты сдашь экзамены минимум <span fw-600>на 30-35 баллов больше</span>,<br hidden xl:block>
-              чем сейчас
-            </p>
-            <QButton bg-gradient-to-b from="[#fcc521]" to="[#ffdd2d]" mt-30px w="full xl:240px" h="60px" text="14px">
+              Ты сдашь экзамены минимум <span fw-600>на 30-35 баллов больше</span>, чем сейчас -->
+              Наша миссия: дать <span fw-600>достойное образование</span> и возможность поступления в вуз мечты 
+              каждому школьнику и сделать его <span fw-600>повсеместно доступным</span> из любой точки мира 🔥
+            </h3>
+            <p text="12px" fw-500 mt-20px mb-5px>От 149 ₽ за занятие, пробное — за наш счёт</p>
+            <QButton bg-gradient-to-b from="[#fcc521]" to="[#ffdd2d]" w="full xl:240px" h="40px" text="14px">
               НАЧАТЬ БЕСПЛАТНО</QButton>
             <!-- <QButton bg-gradient-to-b from="[#ffdd2d]" to="[#fcc521]" mt-30px w="240px" h="60px" text="14px">НАЧАТЬ БЕСПЛАТНО</QButton> -->
             <img hidden xl:inline-block absolute ml-20px mt-50px src="/img/title2.png" alt="" width="190">
+            <img absolute top-40px right-20px src="/img/head.svg" alt="" width="40" height="auto">
           </div>
-          <div relative w-full h-full mt="10px lg:0">
+          <div relative w-full h-full>
             <img hidden xl:block absolute ml-60px src="/img/title1.png" alt="" width="180">
             <img src="/img/ipad.png" alt="Презентация школы" width="100%" height="100%">
             <img mx-auto mb="-20px xl:0" mt="xl:-40px" pl-20px src="/img/title3.png" alt="" width="300">
@@ -43,7 +46,7 @@
             </div>
             <div bg="[#ffffff]" rounded-lg p-10px>
               <img src="/img/p2.svg" alt="" width="45">
-              <div mt-10px>Проверка домашних заданий и практик</div>
+              <div mt-10px>Проверка домашних работ и практик</div>
             </div>
             <div bg="[#ffffff]" rounded-lg p-10px>
               <img src="/img/p3.svg" alt="" width="32">
