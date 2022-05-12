@@ -157,7 +157,7 @@
           </div>
           <div flex flex-col items-center>
             <img mt-15px src="/img/vuz6.webp" alt="" width="140" height="auto">
-            <p mt-10px text="16px" fw-600>ИТМО</p>
+            <p mt-13px text="16px" fw-600>ИТМО</p>
             <p text="14px">31 выпускника</p>
           </div>
           <div flex flex-col items-center>
