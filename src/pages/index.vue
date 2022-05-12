@@ -7,7 +7,7 @@
       <div w="full xl:1024px" h-full mx-auto p="x-10px xl:0">
         <div grid grid-cols="[1fr] xl:[1fr_1fr]">
           <div relative mt="xl:50px">
-            <h1 text="12px xl:15px [#4D4D4D]" fw-600>онлайн школа подготовки к егэ и огэ</h1>
+            <h1 text="12px xl:15px [#4D4D4D]" fw-700>ОНЛАЙН ШКОЛА ПОДГОТОВКИ К ЕГЭ И ОГЭ</h1>
             <h2 mt="20px" text="28px xl:40px" fw-700 leading="28px xl:40px">
               Ты поступишь на <br xl:hidden> бюджет в ВУЗ мечты
             </h2>
@@ -19,7 +19,7 @@
               Наша миссия: дать <span fw-600>достойное образование</span> и возможность поступления в вуз мечты 
               каждому школьнику и сделать его <span fw-600>повсеместно доступным</span> из любой точки мира 🔥
             </h3>
-            <p text="12px" fw-500 mt-20px mb-5px>от 149 ₽ за занятие, пробное — за наш счёт</p>
+            <p text="[#4D4D4D] 16px" mt-20px mb-5px>от 149 ₽ занятие, пробное — за наш счёт</p>
             <QButton bg-gradient-to-b from="[#fcc521]" to="[#ffdd2d]" w="full xl:240px" h="40px" text="14px">
               НАЧАТЬ БЕСПЛАТНО</QButton>
             <!-- <QButton bg-gradient-to-b from="[#ffdd2d]" to="[#fcc521]" mt-30px w="240px" h="60px" text="14px">НАЧАТЬ БЕСПЛАТНО</QButton> -->
@@ -29,9 +29,9 @@
           <div relative w-full h-full>
             <img hidden xl:block absolute ml-60px src="/img/title1.png" alt="" width="180">
             <img src="/img/ipad.png" alt="Презентация школы" width="100%" height="100%">
-            <img mx-auto mb="-20px xl:0" mt="xl:-40px" pl-20px src="/img/title3.png" alt="" width="300">
+            <img absolute mx-auto left-40px bottom-5px src="/img/title3.png" alt="" width="260">
             <img hidden xl:block absolute right-5px top-200px src="/img/pen.png" alt="" width="30">
-            <img absolute mt="-80px" src="/img/face1.png" alt="" w="60px xl:100px" width="auto">
+            <img absolute mt="-90px" src="/img/face1.png" alt="" w="60px xl:100px" width="auto">
           </div>
         </div>
       </div>
