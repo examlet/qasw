@@ -8,7 +8,7 @@ const toggleMobileMenu = () => (mobileMenuCollapsed.value = !mobileMenuCollapsed
     <header fixed top-0 left-0 right-0 h-64px z-99>
       <div w-full h-full bg="[#ffffff]" style="box-shadow: 0 4px 56px rgb(0 0 0 / 12%);">
         <div relative w="full xl:1024px" h-full mx-auto p="x-20px lg:0">
-          <div flex flex-row justify-between items-center h-full>
+          <div flex flex-row justify-between items-center h-full pt="2px">
             <div flex flex-row items-center h-full>
               <div cursor-pointer xl:hidden items-center mr-17px @click="toggleMobileMenu">
                 <div relative inline-block w-20px h-24px space-y-1 h-full>
