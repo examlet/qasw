@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <div h-full w="290px xl:full" mx-auto>
+  <div h-full w="270px xl:full" mx-auto>
     <section id="start" pt="10px lg:50px">
       <div w="full xl:1024px" h-full mx-auto>
         <div grid grid-cols="[1fr] xl:[1fr_1fr]">
