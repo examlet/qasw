@@ -4,7 +4,7 @@
 <template>
   <div h-full w="290px xl:full" mx-auto>
     <section id="start" pt="10px lg:50px">
-      <div w="full xl:1024px" h-full mx-auto p="x-10px xl:0">
+      <div w="full xl:1024px" h-full mx-auto>
         <div grid grid-cols="[1fr] xl:[1fr_1fr]">
           <div relative mt="xl:50px">
             <h1 text="12px xl:15px [#4D4D4D]" fw-700>ОНЛАЙН ШКОЛА ПОДГОТОВКИ К ЕГЭ И ОГЭ</h1>
@@ -24,7 +24,7 @@
               НАЧАТЬ БЕСПЛАТНО</QButton>
             <!-- <QButton bg-gradient-to-b from="[#ffdd2d]" to="[#fcc521]" mt-30px w="240px" h="60px" text="14px">НАЧАТЬ БЕСПЛАТНО</QButton> -->
             <img hidden xl:inline-block absolute ml-20px mt-50px src="/img/title2.png" alt="" width="190">
-            <img absolute top="25px" right="15px" src="/img/head.svg" alt="" width="50" height="auto">
+            <img absolute top="25px" right="20px" src="/img/head.svg" alt="" width="50" height="auto">
           </div>
           <div relative w-full h-full>
             <img hidden xl:block absolute ml-60px src="/img/title1.png" alt="" width="180">
@@ -38,7 +38,7 @@
     </section>
     <section id="features" pt="76px lg:146px">
       <div rounded bg="[#f5f5f7]" w-full h-auto py-10px>
-        <div w="full xl:1024px" h-full mx-auto p="x-10px xl:0">
+        <div w="full xl:1024px" h-full mx-auto px="10px xl:0">
           <div grid grid-cols="[1fr_1fr] xl:[1fr_1fr_1fr_1fr]" gap-20px>
             <div bg="[#ffffff]" rounded-lg p-10px>
               <img src="/img/p1.svg" alt="" width="50">
@@ -61,12 +61,12 @@
       </div>
     </section>
     <section id="reviews" pt="46px lg:100px">
-      <div w="full xl:1024px" h-full mx-auto p="x-10px xl:0">
+      <div w="full xl:1024px" h-full mx-auto>
         <div text-center mb="20px">
           <h1 text="22px xl:36px" fw-700 underline underline-offset-5 decoration="3 [#ffdd2d] dashed">Отзывы выпускников</h1>
           <p mt-10px text="16px xl:20px">Реальные истории, эмоции и результаты</p>
         </div>
-        <div p-10px pt-15px flex items-center justify-between overflow-x-scroll lg:overflow-hidden gap-40px>
+        <div pt-15px flex items-center justify-between overflow-x-scroll lg:overflow-hidden gap-40px>
           <div relative rounded min-w-200px w-200px h-400px>
             <img rounded src="/img/review1.webp" alt="" width="auto" height="auto">
             <div flex flex-row items-center mt-20px>
@@ -127,7 +127,7 @@
       </div>
     </section>
     <section id="results" pt="46px lg:100px">
-      <div w="full xl:1024px" h-full mx-auto p="x-10px xl:0">
+      <div w="full xl:1024px" h-full mx-auto>
         <div text-center mb="40px lg:20px">
           <h1 text="22px xl:36px" fw-700 underline underline-offset-5 decoration="3 [#ffdd2d] dashed">Лучшие ВУЗы страны</h1>
           <p mt-10px text="16px xl:20px">Куда поступают наши ученики</p>
