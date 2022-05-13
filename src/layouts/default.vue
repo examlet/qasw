@@ -8,16 +8,16 @@ const toggleMobileMenu = () => (mobileMenuCollapsed.value = !mobileMenuCollapsed
     <header fixed top-0 left-0 right-0 h-64px z-99>
       <div w-full h-full bg="[#ffffff]" style="box-shadow: 0 4px 56px rgb(0 0 0 / 12%);">
         <div relative w="full xl:1024px" h-full mx-auto p="x-20px lg:0">
-          <div flex flex-row justify-between items-center h-full pt="2px">
+          <div flex flex-row justify-between items-center h-full>
             <div flex flex-row items-center h-full>
-              <div cursor-pointer xl:hidden items-center mr-17px @click="toggleMobileMenu">
+              <div cursor-pointer xl:hidden items-center mr-17px mt-2px @click="toggleMobileMenu">
                 <div relative inline-block w-20px h-24px space-y-1 h-full>
                   <div bg="[#222222]" top="-6px" w-20px h-2px rounded-4px />
                   <div bg="[#222222]" w-20px h-2px rounded-4px />
                   <div bg="[#222222]" bottom="-6px" w-20px h-2px rounded-4px />
                 </div>
               </div>
-              <div text="20px xl:24px" mb="2px xl:0" fw-700>PĀRTA</div>
+              <div mt-2px text="20px xl:24px" mb="2px xl:0" fw-700>PĀRTA</div>
               <div hidden sm:block>
                 <QLink secondary ml-40px>ОБУЧЕНИЕ</QLink>
                 <QLink secondary ml-20px>ПРЕПОДАВАТЕЛИ</QLink>
