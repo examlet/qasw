@@ -46,33 +46,26 @@ const togglePopup2 = () => {
     </header>
 
     <main fixed left-10px right-10px top-10px bottom="50px xl:43px">
-      <section w="270px xl:full" mx-auto relative flex mt="94px xl:114px">
-        <div h-full mx-auto>
-          <h1 text="center 12px xl:44px" fw-600 underline underline-offset="4 xl:15" decoration="2 [#ffdd2d] wavy">
-            Учиться и готовиться к экзаменам — просто!
+      <section w="270px xl:full" mx-auto relative flex pt="84px xl:114px" h-full items-center>
+        <div mx-auto>
+          <h1 text="center 18px xl:44px" fw-600 underline underline-offset="4 xl:15" decoration="2 [#ffdd2d] wavy">
+            Учиться и готовиться<br xl:hidden>к экзаменам — просто!
           </h1>
           <h2 mt="10px xl:15px" text="10px xl:18px" mx-auto fw-500>
-            <div flex flex-row gap-20px justify-center>
+            <div hidden xl:flex flex-row gap-20px justify-center>
               <p>ЕГЭ</p>
               <p>ОГЭ</p>
               <p>Итоговое сочинение</p> 
-              <p hidden xl:block>10 класс</p>
-              <p hidden xl:block>8 класс</p>
-              <p hidden xl:block>Летняя подготовка</p>
-            </div>
-            <div flex xl:hidden flex-row gap-20px justify-center>
               <p>10 класс</p>
               <p>8 класс</p>
               <p>Летняя подготовка</p>
             </div>
-            <p></p>
-
           </h2>
           <div flex flex-col xl:flex-row items-center justify-between gap-20px px="xl:50px" mt="24px xl:64px">
             <div text="center xl:left" rounded w="full xl:40%" bg="[#ffffff]" border="1px [#efefef]" p="12px xl:24px">
-              <img mx-auto src="https://yastatic.net/s3/edu/main_page_search.svg" alt="" w="100px xl:auto">
-              <p my="10px" text="16px xl:24px" fw-600>Впервые на платформе</p>
-              <QButton @click="togglePopup">НАЧАТЬ ЗАНИМАТЬСЯ</QButton>
+              <img mx-auto src="https://yastatic.net/s3/edu/main_page_search.svg" alt="" w="120px xl:auto">
+              <p my="10px" text="left 16px xl:24px" fw-600>Впервые на платформе</p>
+              <QButton w="full xl:auto" @click="togglePopup">НАЧАТЬ ЗАНИМАТЬСЯ</QButton>
               <div hidden xl:block mt-20px text="14px" fw-500>
                 <p>Базовый курс по всем предметам</p>
                 <p>Открытые вебинары каждую неделю</p>
@@ -80,9 +73,9 @@ const togglePopup2 = () => {
               </div>
             </div>
             <div text="center xl:left"  rounded w="full xl:40%" bg="[#ffffff]" border="1px [#efefef]" p="12px xl:24px">
-              <img mx-auto src="https://yastatic.net/s3/edu/main_page_ege.svg" alt="" w="100px xl:auto">
-              <p my="10px" text="16px xl:24px" fw-600>Уже занимаюсь с вами</p>
-              <QButton>ПРОДОЛЖИТЬ ПОДГОТОВКУ</QButton>
+              <img mx-auto src="https://yastatic.net/s3/edu/main_page_ege.svg" alt="" w="120px xl:auto">
+              <p my="10px" text="left 16px xl:24px" fw-600>Уже занимаюсь с вами</p>
+              <QButton w="full xl:auto">ПРОДОЛЖИТЬ ПОДГОТОВКУ</QButton>
               <div hidden xl:block mt-20px text="14px" fw-500>
                 <p>Какое-то длинное описание</p>
                 <p>Какое-то длинное разное описание</p>
