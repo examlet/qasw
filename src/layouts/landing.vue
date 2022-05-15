@@ -17,7 +17,7 @@ const toggleMobileMenu = () => (mobileMenuCollapsed.value = !mobileMenuCollapsed
                   <div bg="[#222222]" bottom="-6px" w-20px h-2px rounded-4px />
                 </div>
               </div>
-              <div mt-4px text="20px xl:24px" mb="2px xl:0" fw-700>PĀRTA</div>
+              <div mt="4px lg:0" text="20px xl:24px" mb="2px xl:0" fw-700>PĀRTA</div>
               <div hidden sm:block>
                 <QLink secondary ml-40px>ОБУЧЕНИЕ</QLink>
                 <QLink secondary ml-20px>ПРЕПОДАВАТЕЛИ</QLink>
@@ -27,7 +27,9 @@ const toggleMobileMenu = () => (mobileMenuCollapsed.value = !mobileMenuCollapsed
             </div>
 
             <div flex flex-row items-center gap-30px>
-              <QButton>ЛИЧНЫЙ КАБИНЕТ</QButton>
+              <NuxtLink to="/cabinet">
+                <QButton>ЛИЧНЫЙ КАБИНЕТ</QButton>
+              </NuxtLink>
               <div leading-16px hidden lg:block>
                 <div text="center 14px">8 (800) 222-86-63</div>
                 <div text-12px text-center flex flex-row items-center gap-5px>

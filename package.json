@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "@iconify-json/carbon": "^1.1.4",
+    "@iconify-json/simple-icons": "^1.1.11",
     "pinia": "^2.0.14"
   }
 }

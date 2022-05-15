@@ -297,6 +297,13 @@
   dependencies:
     "@iconify/types" "^1.1.0"
 
+"@iconify-json/simple-icons@^1.1.11":
+  version "1.1.11"
+  resolved "https://registry.yarnpkg.com/@iconify-json/simple-icons/-/simple-icons-1.1.11.tgz#5fd7747affbdb67373159d8a9164cd87812ec7ac"
+  integrity sha512-6qwa4ZH1uVywdeXEaBzkUHzHosl2UGLOsqJHuMHNESuYuIqksiZxUsTxj8tWxXrb9tk2fZGjuyuXVxkKHacECg==
+  dependencies:
+    "@iconify/types" "^1.1.0"
+
 "@iconify/types@^1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@iconify/types/-/types-1.1.0.tgz#dc15fc988b1b3fd558dd140a24ede7e0aac11280"
